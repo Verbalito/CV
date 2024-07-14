@@ -3,69 +3,76 @@
     <head>
         <meta charset="UTF-8">
         <title>My Resume</title>
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
-
-    <body>
-        <img src="./assets/images/profile_pic.png" alt="Profile picture" /><header></header>
-        <h1>Daniel Rados Ekeskog</h1>
-        <h3>
-            <em>Consultant and Financial IT developer</em>
-        </h3>
-        <hr />
-
-        <h2>Summary</h2>
-        <p>
+    <div class="base">
+        <nav>
             <ul>
-                <li>Thirteen years’ experience working in the financial industry.</li>
-                <li>Background in mathematics/physics as well as business.</li>
-	            <li>Fast learner and problem solver attitude with an analytical mindset.</li>
-                <li>Work well in teams and used to working on short deadlines. </li>
-	            <li>Experienced in conducting workshops and training sessions both internally and externally.</li>
+                <a href="./index.html">Home</a>
+                <a href="./projects.html">Projects</a>
             </ul>
-        </p>
+        </nav>
+        <body>
 
-        <h2>Education</h2>
-        <h4>2002 - 2010	M. Sc. in Engineering Physics, Uppsala University, Sweden</h4>
-        <p>Focus on electronics, automatic control engineering, programming, and scientific computing.</p>
-        <h4>2006 - 2010	B. Sc. in Business Studies, Uppsala University, Sweden</h4>
-        <p>Management and financial accounting.</p>
+            <h1>Daniel Rados Ekeskog</h1>
+            <h3>
+                <em>Consultant and Financial IT developer</em>
+            </h3>
+            <hr />
+            <h2>Summary</h2>
+            <img id="profile-pic" src="./assets/images/profile_pic.png" alt="Profile picture" /><header></header>
+            <p>
+                <ul id="summarylist">
+                    <li>Thirteen years’ experience working in the financial industry.</li>
+                    <li>Background in mathematics/physics as well as business.</li>
+                    <li>Fast learner and problem solver attitude with an analytical mindset.</li>
+                    <li>Work well in teams and used to working on short deadlines. </li>
+                    <li>Experienced in conducting workshops and training sessions both internally and externally.</li>
+                </ul>   
+            </p>
             
-        <h2>Employment history</h2>
-            
-        <h4>2018 - 2024	Senior Consultant at Rumbline Consulting</h4>
-            In this role I worked at Handelsbanken in Stockholm for just over six years.
+            <h2>Education</h2>
+            <h4>2002 - 2010	M. Sc. in Engineering Physics, Uppsala University, Sweden</h4>
+            <p>Focus on electronics, automatic control engineering, programming, and scientific computing.</p>
+            <h4>2006 - 2010	B. Sc. in Business Studies, Uppsala University, Sweden</h4>
+            <p>Management and financial accounting.</p>
+                
+            <h2>Employment history</h2>
+                
+            <h4>2018 - 2024	Senior Consultant at Rumbline Consulting</h4>
+                In this role I worked at Handelsbanken in Stockholm for just over six years.
+                <ul>
+                    <li>Part of agile team tasked with developing an application within Front Arena Prime for bilateral and syndicated lending, continuing the work I started my last year at FIS.<br />
+                        I was involved in everything from scoping, architectural decisions and UX to development, testing and integration of lending platform. The last few years, I worked especially close with accounting, developing integrations to their sub-ledger.</li>
+                    <li>Part of various other projects at the bank dealing with, among other things, confirmations, and regulatory requirements.</li>
+                    <li>1st and 2nd line support for trading and operations.</li>
+                </ul>
+
+            <h4>2011 - 2018 Senior Consultant at Capital Markets Consultant Service, SunGard/FIS Front Arena, Stockholm</h4>
             <ul>
-                <li>Part of agile team tasked with developing an application within Front Arena Prime for bilateral and syndicated lending, continuing the work I started my last year at FIS.<br />
-                    I was involved in everything from scoping, architectural decisions and UX to development, testing and integration of lending platform. The last few years, I worked especially close with accounting, developing integrations to their sub-ledger.</li>
-                <li>Part of various other projects at the bank dealing with, among other things, confirmations, and regulatory requirements.</li>
-                <li>1st and 2nd line support for trading and operations.</li>
+                <li>Worked in various implementation- and upgrade projects of Front Arena Prime. A big part was extending and customizing the system capabilities using existing extension framework based on Python.</li>
+                <li>Focus mainly on the post trade functionality with accounting, settlements, confirmations, and cash management.</li>
+                <li>Part of initiative to use Front Arena for treasury clients. Both making customizations for the clients and acting as a bridge between the client and our development teams.</li>   
+                <li>Managed workshops and training sessions on back-office functionality both internally and externally.</li>     
             </ul>
-
-        <h4>2011 - 2018 Senior Consultant at Capital Markets Consultant Service, SunGard/FIS Front Arena, Stockholm</h4>
-        <ul>
-            <li>Worked in various implementation- and upgrade projects of Front Arena Prime. A big part was extending and customizing the system capabilities using existing extension framework based on Python.</li>
-            <li>Focus mainly on the post trade functionality with accounting, settlements, confirmations, and cash management.</li>
-            <li>Part of initiative to use Front Arena for treasury clients. Both making customizations for the clients and acting as a bridge between the client and our development teams.</li>   
-            <li>Managed workshops and training sessions on back-office functionality both internally and externally.</li>     
-        </ul>
-        <a href="./public/projects.html">List of projects</a>
-            
-        <h2>Skills</h2>
-        <ul>
-            <li>Agile, SAFe, Jira, Scrum</li>
-            <li>Python, XML, HTML, Java, SQL</li>
-            <li>GIT, Clearcase</li>
-            <li>Matlab</li>
-            <li>Excel och MS Office.</li> 
-        </ul>
-        <hr />
-        <h2>Contact</h2>
-        <a href="https://www.linkedin.com/in/danielrados/"><img src="assets/images/linkedin-logo.png" alt="LinkedIn" height="30" /></a>
-        <a href="mailto: daniel.rados@gmail.com"><img src="./assets/images/icon_email.png" alt="Email" height="30"></a>
-        <hr />
-        <footer>
-            © 2023 Daniel Rados Ekeskog. All Rights Reserved.
-        </footer>
-    </body>
-
+            <a href="./projects.html">List of projects</a>
+                
+            <h2>Skills</h2>
+            <ul>
+                <li>Agile, SAFe, Jira, Scrum</li>
+                <li>Python, XML, HTML, Java, SQL</li>
+                <li>GIT, Clearcase</li>
+                <li>Matlab</li>
+                <li>Excel och MS Office.</li> 
+            </ul>
+            <hr />
+            <h2>Contact</h2>
+            <a href="https://www.linkedin.com/in/danielrados/"><img src="assets/images/linkedin-logo.png" alt="LinkedIn" height="30" /></a>
+            <a href="mailto: daniel.rados@gmail.com"><img src="./assets/images/icon_email.png" alt="Email" height="30"></a>
+            <hr />
+            <footer>
+                © 2023 Daniel Rados Ekeskog. All Rights Reserved.
+            </footer>
+        </body>
+    </div>
 </html>
