@@ -1,18 +1,28 @@
 html {
-    background-color: #F5EFE6;
+    background-color: white;
 }
+
 nav {
     text-align:center;
-    background-color: #E8DFCA;
+    background-color: #729762;
     font-size: 1.3rem;
     font-weight: 600;
-    padding:10px;
-    margin:0;
+    padding:1px;
+    margin-bottom:1px;
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    border-bottom: 1px solid lightgray;
 }
 
 .base {
+    position:absolute;
+    top:45px;
     width:80%;
     margin-left: 10%;
+    margin-top: 30px;
 }
 
 a {
@@ -24,23 +34,31 @@ nav a{
     
 }
 
+h1, h2, h3 {
+    background-color: #E7F0DC;
+    color: #1A4D2E;
+    border: 1px solid lightgray
+}
+
+#title {
+    border-bottom: 0px solid black;
+}
+
+#title-em {
+    border-top: none;
+}
+
 h1 {
-    color:#1A4D2E;
-    background-color: #E8DFCA;
     text-align: center;
     margin:0;
 }
 
 h2 {
-    color:#1A4D2E;
-    background-color: #E8DFCA;
     text-align: center;
     margin:0px 0px 10px 0px;
 }
 
 h3 {
-    color:#1A4D2E;
-    background-color: #E8DFCA;
     text-align: center;
     margin:0px;
     padding-bottom: 5px;
@@ -50,8 +68,13 @@ h3 {
     float:left;
     height: 200px;
     margin-right: 40px;
+    border:solid 1px #1A4D2E;
 }
 
 #summarylist {
     height: 200px;
+}
+
+.section {
+    margin-top: 10px;
 }
